@@ -1,14 +1,14 @@
 [
 {
-  "modid": "examplemod",
-  "name": "Example Mod",
-  "description": "Example placeholder mod.",
+  "modid": "hamburgsteakmod",
+  "name": "HamburgsSeak Mod",
+  "description": "HamburgsSeak Mod",
   "version": "${version}",
   "mcversion": "${mcversion}",
   "url": "",
   "updateUrl": "",
-  "authorList": ["ExampleDude"],
-  "credits": "The Forge and FML guys, for making this example",
+  "authorList": ["Senna"],
+  "credits": "",
   "logoFile": "",
   "screenshots": [],
   "dependencies": []

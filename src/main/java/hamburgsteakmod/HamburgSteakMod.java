@@ -8,26 +8,26 @@ import cpw.mods.fml.common.event.FMLPostInitializationEvent;
 import cpw.mods.fml.common.event.FMLPreInitializationEvent;
 import hamburgsteakmod.registry.ModArmor;
 import hamburgsteakmod.registry.ModBiome;
-import hamburgsteakmod.registry.ModBlock;
+import hamburgsteakmod.registry.ModBlocks;
 import hamburgsteakmod.registry.ModDimension;
-import hamburgsteakmod.registry.ModItem;
+import hamburgsteakmod.registry.ModItems;
 import hamburgsteakmod.registry.ModRecipe;
 
-@Mod(modid = HamburgsSeakMod.MOD_ID, name = HamburgsSeakMod.MODNAME, version = HamburgsSeakMod.VERSION)
-public class HamburgsSeakMod
+@Mod(modid = HamburgSteakMod.MOD_ID, name = HamburgSteakMod.MODNAME, version = HamburgSteakMod.VERSION)
+public class HamburgSteakMod
 {
-	public static final String MOD_ID = "HamburgsSeakMod";
-	public static final String MODNAME = "HamburgsSeakMod";
+	public static final String MOD_ID = "hamburgsteakmod";
+	public static final String MODNAME = "HamburgSteak Mod";
 	public static final String VERSION = "0.0.1";
 
 	@Instance
-	public static HamburgsSeakMod instance = new HamburgsSeakMod();
+	public static HamburgSteakMod instance = new HamburgSteakMod();
 
 	@EventHandler
 	public void preInit(FMLPreInitializationEvent e)
 	{
-		ModBlock.RegisterBlock();
-		ModItem.RegisterItem();
+		ModBlocks.RegisterBlock();
+		ModItems.RegisterItem();
 		ModArmor.RegisterArmmor();
 		ModDimension.RegisterDimension();
 	}
@@ -35,8 +35,8 @@ public class HamburgsSeakMod
 	@EventHandler
 	public void init(FMLInitializationEvent e)
 	{
-		ModBlock.SetLanguage();
-		ModItem.SetLanguage();
+		ModBlocks.SetLanguage();
+		ModItems.SetLanguage();
 		ModArmor.SetLanguage();
 
 		ModRecipe.RegisterRecipe();

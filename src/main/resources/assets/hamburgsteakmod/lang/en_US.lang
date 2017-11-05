@@ -1,0 +1,13 @@
+itemGroup.crazymonstersMod=crazymonsters Mod
+itemGroup.Blocks=Blocks
+itemGroup.Decoration Blocks=Decoration Blocks
+itemGroup.Miscellaneous=Miscellaneous
+itemGroup.Foodstuff=Foodstuff
+itemGroup.Tools=Tools
+itemGroup.Combat=Combat
+itemGroup.Materials=Materials
+
+entity.crazymonsters.wicca.name=Wicca
+entity.crazymonsters.babyGhast.name=Baby Ghast
+entity.crazymonsters.megaSlime.name=Mega Slime
+entity.crazymonsters.crazymonsters.name=Deep Dragon
